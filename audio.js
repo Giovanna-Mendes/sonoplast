@@ -43,7 +43,7 @@ function tocarCaindo(botao) {
     } else {
         fall.pause();
         fall.currentTime = 0;
-        botao.textContent = "Caindo-Cavalo";
+        botao.textContent = "Caindo Cavalo";
     }
 }
 
