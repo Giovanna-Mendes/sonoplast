@@ -1,7 +1,7 @@
 const fundo = new Audio("sons/fundo.mp3");
 const pedras = new Audio("sons/pedras.mp3");
 const cavalo = new Audio("sons/cavalos.mp3");
-const fall = new Audio ("sons/fall.mp3");
+const fall = new Audio ("sons/caindo.mp3");
 const tensao = new Audio ("sons/tensao.mp3");
 
 function tocarFundo(botao) {
