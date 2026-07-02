@@ -7,43 +7,43 @@ const tensao = new Audio ("sons/tensao.mp3");
 function tocarFundo(botao) {
     if (fundo.paused) {
         fundo.play();
-        botao.textContent = "Parar";
+        botao.textContent = "PARAR";
     } else {
         fundo.pause();
         fundo.currentTime = 0;
-        botao.textContent = "Fundo";
+        botao.textContent = "FUNDO";
     }
 }
 
 function tocarPedras(botao) {
     if (pedras.paused) {
         pedras.play();
-        botao.textContent = "Parar";
+        botao.textContent = "PARAR";
     } else {
         pedras.pause();
         pedras.currentTime = 0;
-        botao.textContent = "Pedras";
+        botao.textContent = "PEDRAS";
     }
 }
 
 function tocarCavalo(botao) {
     if (cavalo.paused) {
         cavalo.play();
-        botao.textContent = "Parar";
+        botao.textContent = "PARAR";
     } else {
         cavalo.pause();
         cavalo.currentTime = 0;
-        botao.textContent = "Cavalo";
+        botao.textContent = "CAVALO";
     }
 }
 function tocarCaindo(botao) {
     if (fall.paused) {
         fall.play();
-        botao.textContent = "Parar";
+        botao.textContent = "PARAR";
     } else {
         fall.pause();
         fall.currentTime = 0;
-        botao.textContent = "Caindo";
+        botao.textContent = "CAINDO";
     }
 }
 
