@@ -31,14 +31,14 @@ body {
   margin: 0;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 12px;
 }
 
 .controls li {
-   list-style: none;
+   list-style-type: none;
   margin: 0;
   padding: 0;
 }
