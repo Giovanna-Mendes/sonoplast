@@ -4,16 +4,6 @@ const cavalo = new Audio("sons/cavalos.mp3");
 const fall = new Audio ("sons/caindo.mp3");
 const tensao = new Audio ("sons/tensao.mp3");
 
-function tocarFundo(botao) {
-    if (fundo.paused) {
-        fundo.play();
-        botao.textContent = "PARAR";
-    } else {
-        fundo.pause();
-        fundo.currentTime = 0;
-        botao.textContent = "FUNDO";
-    }
-}
 
 function tocarPedras(botao) {
     if (pedras.paused) {
